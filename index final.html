@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Proyecto de titulo</title>
+        <style>
+            *,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+:root {
+    --color-oscurisimo: #000;
+    --color-oscuro: #313235;
+    --color-normal: #706a94;
+    --color-iluminado: #aaa;
+    --color-iluminadisimo: #e7d1d1;
+    --fuente: "Source Code Pro", monospace;
+}
+
+body {
+    font-family: var(--fuente);
+    color: var(--color-normal);
+    text-align: center;
+    font-size: 100%;
+}
+
+a {
+    color: var(--color-oscuro);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-oscurisimo);
+    text-decoration: underline;
+}
+div#contenedor {
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 980px;
+}
+
+h1 {
+    margin: 1rem 0;
+    font-weight: 400;
+    font-size: calc(100% + 3vw + 3vh);
+}
+
+h2 {
+    margin: 3rem 0;
+    font-weight: 400;
+    letter-spacing: 0.25rem;
+    font-size: calc(100% + 1vw + 1vh);
+    color: var(--color-oscuro);
+}
+
+input {
+    border: 0.1rem solid var(--color-iluminado);
+    padding: 0.5rem 1rem;
+    font-family: inherit;
+    font-size: 15px;
+    color: var(--color-oscuro);
+    outline: none;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    display: block;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M10.15,61.5H25.77V68H10.15a3.13,3.13,0,0,1-3.08-3.08v-.49A3.1,3.1,0,0,1,10.15,61.5Zm0,18.33H25.77v6.52H10.15a3.11,3.11,0,0,1-3.08-3V82.9A3.12,3.12,0,0,1,10.15,79.83ZM23.92,37.27H19v-24a4.09,4.09,0,0,1,4.06-4h49.7a4.08,4.08,0,0,1,4,4v.87H23.92ZM19,43.05v-.86H71.89V19.06h4.92l7.51,1.23V35.55l-7.51,1.72v5.78a4.09,4.09,0,0,1-4,4.06H23.06A4.1,4.1,0,0,1,19,43.05Zm9.84-5.17V18.45H39.67V37.88ZM92.93,77.74H71.28a16.85,16.85,0,0,1-16.36,13H31.3V57.07H54.92A16.88,16.88,0,0,1,71.28,70H92.93Z"></path></svg>');
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-position: 99% center;
+}
+
+input::placeholder {
+    color: var(--color-iluminado);
+}
+
+input:focus {
+    border-color: var(--color-normal);
+}
+
+div#contenedordetabla {
+    overflow-x: auto;
+    font-size: 90%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+thead {
+    background: var(--color-iluminadisimo);
+    color: var(--color-oscuro);
+}
+
+tbody {
+    color: var(--color-normal);
+}
+
+td,
+th {
+    border: 1px solid var(--color-normal);
+    padding: 0.75rem;
+}
+
+th:nth-child(1),
+td:nth-child(1),
+th:nth-child(4),
+td:nth-child(4) {
+    text-align: center;
+}
+
+td:nth-child(2) {
+    color: var(--color-oscuro);
+    font-weight: 800;
+}
+
+td:nth-child(3) {
+    font-style: italic;
+}
+        </style>
+    </head>
+    <body>
+        <div id="contenedor">
+            <h1>૮(˶ㅠ︿ㅠ)ა</h1> <!--ᕙ( •̀ ᗜ •́ )ᕗ-->
+            <h2>PROYECTOS DE TITULO</h2>
+
+            <input type="text" id="elInput" placeholder="Filtrar electivos…" />
+            <div id="contenedordetabla">
+                <table>
+                    <thead>
+                        <tr>
+                            
+                            <th>Titulado</th>
+                            <th>Proyecto</th>
+                            <th>Nota</th>
+                            <th>Categoría</th>
+                            <th>Prof. Guía</th>
+                        </tr>
+                    </thead>
+                    <tbody id="este"></tbody>
+                </table>
+            </div>
+            <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1120.08 612.22">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st28, .st29, .st30 {
+        fill: none;
+      }
+
+      .st0, .st1, .st12, .st13, .st17, .st21, .st23, .st25, .st28 {
+        stroke: #ff7f0e;
+      }
+
+      .st0, .st5, .st27, .st30 {
+        stroke-width: 9.58px;
+      }
+
+      .st1 {
+        stroke-width: 30.65px;
+      }
+
+      .st2, .st4, .st6, .st24, .st30 {
+        stroke: #2ca02c;
+      }
+
+      .st2, .st9, .st13 {
+        stroke-width: 11.49px;
+      }
+
+      .st3 {
+        stroke-width: 45.97px;
+      }
+
+      .st3, .st22, .st26 {
+        stroke: #9467bd;
+      }
+
+      .st4, .st8, .st12 {
+        stroke-width: 7.66px;
+      }
+
+      .st5 {
+        stroke: #e377c2;
+      }
+
+      .st6, .st10, .st25 {
+        stroke-width: 5.75px;
+      }
+
+      .st31 {
+        fill: #fff;
+      }
+
+      .st7 {
+        stroke-width: 26.82px;
+      }
+
+      .st7, .st15, .st29 {
+        stroke: #8c564b;
+      }
+
+      .st8, .st9, .st10, .st14, .st16, .st18, .st27 {
+        stroke: #1f77b4;
+      }
+
+      .st11 {
+        stroke-width: 22.99px;
+      }
+
+      .st11, .st19, .st20 {
+        stroke: #d62728;
+      }
+
+      .st32 {
+        font-size: 8.85px;
+      }
+
+      .st32, .st33, .st34, .st35 {
+        isolation: isolate;
+      }
+
+      .st32, .st34, .st35 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st14, .st24 {
+        stroke-width: 3.83px;
+      }
+
+      .st15 {
+        stroke-width: 36.39px;
+      }
+
+      .st16 {
+        stroke-width: 13.41px;
+      }
+
+      .st17 {
+        stroke-width: 15.32px;
+      }
+
+      .st18, .st21 {
+        stroke-width: 1.92px;
+      }
+
+      .st19 {
+        stroke-width: 57.46px;
+      }
+
+      .st20 {
+        stroke-width: 19.15px;
+      }
+
+      .st36 {
+        mix-blend-mode: multiply;
+      }
+
+      .st22 {
+        stroke-width: 32.56px;
+      }
+
+      .st34 {
+        fill: #7b7b7b;
+        font-size: 12px;
+      }
+
+      .st23 {
+        stroke-width: 24.9px;
+      }
+
+      .st35 {
+        font-size: 10px;
+      }
+
+      .st26 {
+        stroke-width: 61.29px;
+      }
+
+      .st28 {
+        stroke-width: 44.05px;
+      }
+
+      .st29 {
+        stroke-width: 72.79px;
+      }
+    </style>
+  </defs>
+  <g class="st33">
+    <g id="Capa_1">
+      <rect id="background" class="st31" width="1120.08" height="612.22"/>
+      <g id="visualization">
+        <g>
+          <rect x="799.04" y="23.52" width="5" height="1.92"/>
+          <rect x="799.04" y="30.44" width="5" height="1.92"/>
+          <rect x="799.04" y="37.35" width="5" height="3.83"/>
+          <rect x="799.04" y="46.18" width="5" height="3.83"/>
+          <rect x="799.04" y="55.02" width="5" height="3.83"/>
+          <rect x="799.04" y="63.85" width="5" height="3.83"/>
+          <rect x="799.04" y="72.68" width="5" height="3.83"/>
+          <rect x="799.04" y="81.51" width="5" height="5.75"/>
+          <rect x="799.04" y="92.25" width="5" height="5.75"/>
+          <rect x="799.04" y="103" width="5" height="5.75"/>
+          <rect x="799.04" y="113.75" width="5" height="5.75"/>
+          <rect x="799.04" y="124.49" width="5" height="5.75"/>
+          <rect x="799.04" y="135.24" width="5" height="5.75"/>
+          <rect x="799.04" y="145.99" width="5" height="5.75"/>
+          <rect x="799.04" y="156.73" width="5" height="5.75"/>
+          <rect x="799.04" y="167.48" width="5" height="5.75"/>
+          <rect x="799.04" y="178.22" width="5" height="7.66"/>
+          <rect x="799.04" y="190.89" width="5" height="7.66"/>
+          <rect x="799.04" y="203.55" width="5" height="7.66"/>
+          <rect x="799.04" y="216.21" width="5" height="7.66"/>
+          <rect x="799.04" y="228.87" width="5" height="7.66"/>
+          <rect x="799.04" y="241.53" width="5" height="7.66"/>
+          <rect x="19.04" y="113.52" width="5" height="9.58"/>
+          <rect x="799.04" y="254.19" width="5" height="9.58"/>
+          <rect x="799.04" y="268.77" width="5" height="9.58"/>
+          <rect x="799.04" y="283.35" width="5" height="9.58"/>
+          <rect x="799.04" y="297.93" width="5" height="9.58"/>
+          <rect x="799.04" y="312.5" width="5" height="9.58"/>
+          <rect x="799.04" y="327.08" width="5" height="9.58"/>
+          <rect x="799.04" y="341.66" width="5" height="9.58"/>
+          <rect x="799.04" y="356.23" width="5" height="11.49"/>
+          <rect x="799.04" y="372.73" width="5" height="11.49"/>
+          <rect x="799.04" y="389.22" width="5" height="11.49"/>
+          <rect x="799.04" y="405.71" width="5" height="11.49"/>
+          <rect x="799.04" y="422.2" width="5" height="11.49"/>
+          <rect x="799.04" y="438.7" width="5" height="11.49"/>
+          <rect x="799.04" y="455.19" width="5" height="13.41"/>
+          <rect x="799.04" y="473.6" width="5" height="15.32"/>
+          <rect x="799.04" y="493.92" width="5" height="24.9"/>
+          <rect x="799.04" y="523.82" width="5" height="30.65"/>
+          <rect x="799.04" y="559.47" width="5" height="44.05"/>
+          <rect x="409.04" y="116.02" width="5" height="91.94"/>
+          <rect x="19.04" y="128.1" width="5" height="99.6"/>
+          <rect x="409.04" y="212.96" width="5" height="107.26"/>
+          <rect x="19.04" y="232.7" width="5" height="136"/>
+          <rect x="19.04" y="373.7" width="5" height="139.83"/>
+          <rect x="409.04" y="325.23" width="5" height="185.8"/>
+        </g>
+        <g>
+          <g class="st36">
+            <path class="st7" d="M21.54,282.5c192.5,0,192.5-36.98,385-36.98"/>
+          </g>
+          <g class="st36">
+            <path class="st26" d="M21.54,436.91c192.5,0,192.5-147.33,385-147.33"/>
+          </g>
+          <g class="st36">
+            <path class="st22" d="M21.54,389.98c192.5,0,192.5-198.3,385-198.3"/>
+          </g>
+          <g class="st36">
+            <path class="st19" d="M21.54,198.97c192.5,0,192.5,164.56,385,164.56"/>
+          </g>
+          <g class="st36">
+            <path class="st11" d="M21.54,139.59c192.5,0,192.5-12.08,385-12.08"/>
+          </g>
+          <g class="st36">
+            <path class="st15" d="M21.54,250.9c192.5,0,192.5-93.69,385-93.69"/>
+          </g>
+          <g class="st36">
+            <path class="st3" d="M21.54,490.54c192.5,0,192.5-2.5,385-2.5"/>
+          </g>
+          <g class="st36">
+            <path class="st29" d="M21.54,332.3c192.5,0,192.5,96.36,385,96.36"/>
+          </g>
+          <g class="st36">
+            <path class="st20" d="M21.54,160.66c192.5,0,192.5,61.88,385,61.88"/>
+          </g>
+          <g class="st36">
+            <path class="st5" d="M21.54,118.31c192.5,0,192.5,211.7,385,211.7"/>
+          </g>
+          <g class="st36">
+            <path class="st10" d="M411.54,225.41c192.5,0,192.5-141.03,385-141.03"/>
+          </g>
+          <g class="st36">
+            <path class="st27" d="M411.54,271.38c192.5,0,192.5-12.4,385-12.4"/>
+          </g>
+          <g class="st36">
+            <path class="st16" d="M411.54,313.52c192.5,0,192.5,148.37,385,148.37"/>
+          </g>
+          <g class="st36">
+            <path class="st8" d="M411.54,255.1c192.5,0,192.5-73.05,385-73.05"/>
+          </g>
+          <g class="st36">
+            <path class="st4" d="M411.54,142.84c192.5,0,192.5,51.88,385,51.88"/>
+          </g>
+          <g class="st36">
+            <path class="st18" d="M411.54,213.92c192.5,0,192.5-189.44,385-189.44"/>
+          </g>
+          <g class="st36">
+            <path class="st10" d="M411.54,231.16c192.5,0,192.5-136.03,385-136.03"/>
+          </g>
+          <g class="st36">
+            <path class="st8" d="M411.54,262.76c192.5,0,192.5-55.39,385-55.39"/>
+          </g>
+          <g class="st36">
+            <path class="st30" d="M411.54,159.12c192.5,0,192.5,114.44,385,114.44"/>
+          </g>
+          <g class="st36">
+            <path class="st13" d="M411.54,378.86c192.5,0,192.5-16.88,385-16.88"/>
+          </g>
+          <g class="st36">
+            <path class="st2" d="M411.54,179.23c192.5,0,192.5,199.24,385,199.24"/>
+          </g>
+          <g class="st36">
+            <path class="st6" d="M411.54,130.39c192.5,0,192.5-24.51,385-24.51"/>
+          </g>
+          <g class="st36">
+            <path class="st17" d="M411.54,403.76c192.5,0,192.5,77.5,385,77.5"/>
+          </g>
+          <g class="st36">
+            <path class="st27" d="M411.54,280.96c192.5,0,192.5,7.18,385,7.18"/>
+          </g>
+          <g class="st36">
+            <path class="st23" d="M411.54,423.87c192.5,0,192.5,82.5,385,82.5"/>
+          </g>
+          <g class="st36">
+            <path class="st2" d="M411.54,190.72c192.5,0,192.5,204.24,385,204.24"/>
+          </g>
+          <g class="st36">
+            <path class="st25" d="M411.54,330.02c192.5,0,192.5-213.4,385-213.4"/>
+          </g>
+          <g class="st36">
+            <path class="st1" d="M411.54,451.64c192.5,0,192.5,87.5,385,87.5"/>
+          </g>
+          <g class="st36">
+            <path class="st30" d="M411.54,168.7c192.5,0,192.5,134.02,385,134.02"/>
+          </g>
+          <g class="st36">
+            <path class="st24" d="M411.54,117.94c192.5,0,192.5-78.67,385-78.67"/>
+          </g>
+          <g class="st36">
+            <path class="st2" d="M411.54,202.22c192.5,0,192.5,209.24,385,209.24"/>
+          </g>
+          <g class="st36">
+            <path class="st10" d="M411.54,236.91c192.5,0,192.5-109.54,385-109.54"/>
+          </g>
+          <g class="st36">
+            <path class="st9" d="M411.54,301.07c192.5,0,192.5,126.88,385,126.88"/>
+          </g>
+          <g class="st36">
+            <path class="st25" d="M411.54,335.76c192.5,0,192.5-197.65,385-197.65"/>
+          </g>
+          <g class="st36">
+            <path class="st0" d="M411.54,358.75c192.5,0,192.5-41.46,385-41.46"/>
+          </g>
+          <g class="st36">
+            <path class="st12" d="M411.54,342.47c192.5,0,192.5-122.43,385-122.43"/>
+          </g>
+          <g class="st36">
+            <path class="st10" d="M411.54,242.65c192.5,0,192.5-93.79,385-93.79"/>
+          </g>
+          <g class="st36">
+            <path class="st13" d="M411.54,390.35c192.5,0,192.5,54.09,385,54.09"/>
+          </g>
+          <g class="st36">
+            <path class="st4" d="M411.54,150.5c192.5,0,192.5,82.2,385,82.2"/>
+          </g>
+          <g class="st36">
+            <path class="st24" d="M411.54,121.77c192.5,0,192.5-73.67,385-73.67"/>
+          </g>
+          <g class="st36">
+            <path class="st28" d="M411.54,489c192.5,0,192.5,92.5,385,92.5"/>
+          </g>
+          <g class="st36">
+            <path class="st12" d="M411.54,350.13c192.5,0,192.5-104.76,385-104.76"/>
+          </g>
+          <g class="st36">
+            <path class="st10" d="M411.54,248.4c192.5,0,192.5-88.79,385-88.79"/>
+          </g>
+          <g class="st36">
+            <path class="st21" d="M411.54,326.18c192.5,0,192.5-294.79,385-294.79"/>
+          </g>
+          <g class="st36">
+            <path class="st27" d="M411.54,290.54c192.5,0,192.5,41.33,385,41.33"/>
+          </g>
+          <g class="st36">
+            <path class="st14" d="M411.54,216.79c192.5,0,192.5-159.86,385-159.86"/>
+          </g>
+          <g class="st36">
+            <path class="st14" d="M411.54,220.62c192.5,0,192.5-154.86,385-154.86"/>
+          </g>
+          <g class="st36">
+            <path class="st6" d="M411.54,136.13c192.5,0,192.5,34.22,385,34.22"/>
+          </g>
+          <g class="st36">
+            <path class="st0" d="M411.54,368.32c192.5,0,192.5-21.88,385-21.88"/>
+          </g>
+          <g class="st36">
+            <path class="st24" d="M411.54,125.6c192.5,0,192.5-51.01,385-51.01"/>
+          </g>
+        </g>
+        <g>
+          <g class="st33">
+            <text class="st35" transform="translate(804.1 27.61)"><tspan x="0" y="0">Robótica y Mecatrónica</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(804.26 34.38)"><tspan x="0" y="0">Gestión de Producción</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(804.76 41.95)"><tspan x="0" y="0">Experimentación Material y Upcycling</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(804.71 51.25)"><tspan x="0" y="0">Experimentación y Artes Visuales</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(805.73 60.83)"><tspan x="0" y="0">Inteligencia Artificial y Datos</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st32" transform="translate(804.94 69.15) scale(1.08 1)"><tspan x="0" y="0">Realidad Virtual y Aumentada</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(804.66 78.6)"><tspan x="0" y="0">Patrimonio y Expresión Formal</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(806.73 89.85)"><tspan x="0" y="0">Computación y Pensamiento Lógico</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(805.77 99.42)"><tspan x="0" y="0">Bio-materiales y Nuevas Tecnologías</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(807.89 111.06)"><tspan x="0" y="0">Oficios y Accesorios</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(805.83 120.56)"><tspan x="0" y="0">Metodologías Creativas</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(804.97 131.61)"><tspan x="0" y="0">Prototipado Electrónico e Interacción</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(805.95 141.07)"><tspan x="0" y="0">Gestión de Publicaciones</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(806.23 152.34)"><tspan x="0" y="0">Tecnologías de Energía y Sustentabilidad</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(805.07 163.14)"><tspan x="0" y="0">Laboratorio de Materiales y Oficios</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(807.15 174.64)"><tspan x="0" y="0">Morfología Textil y Superficies</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(806.57 185.89)"><tspan x="0" y="0">Ecodiseño y Sostenibilidad Material</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(807.2 198.85)"><tspan x="0" y="0">Oficios y Cultura Material</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(809.52 211.37)"><tspan x="0" y="0">Biomecánica y Ergonomía Avanzada</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(808.46 223.66)"><tspan x="0" y="0">Gestión Cultural y de Industrias</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(808.93 236.79)"><tspan x="0" y="0">Imagen y Lenguaje Visual</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(810.98 251.76)"><tspan x="0" y="0">Investigación y Metodología</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(236.32 116.49)"><tspan x="0" y="0">—</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(808.86 264.47)"><tspan x="0" y="0">Manufactura y Producción Industrial</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(808.69 278.7)"><tspan x="0" y="0">Representación y Bocetaje (Sketching)</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(808.93 293.32)"><tspan x="0" y="0">Sistemas Constructivos y Estructuras</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(808.06 306.64)"><tspan x="0" y="0">Morfología de Objetos Complejos</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(807.72 321.54)"><tspan x="0" y="0">Estrategia y Sostenibilidad</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(807.69 336.66)"><tspan x="0" y="0">Modelado y Simulación Digital</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(808.66 351.63)"><tspan x="0" y="0">Patrimonio e Identidad</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(806.37 364.65)"><tspan x="0" y="0">Comunicación Visual Estratégica</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(805.04 380.48)"><tspan x="0" y="0">Teoría y Aplicación del Color (CMF)</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(810.24 399.22)"><tspan x="0" y="0">Narrativa Visual e Ilustración</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(808.15 413.22)"><tspan x="0" y="0">Composición Editorial y Tipográfica</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(811.18 430.08)"><tspan x="0" y="0">Programación y Desarrollo Web</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(809.85 448.89)"><tspan x="0" y="0">Emprendimiento y Negocios</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(808.33 467.03)"><tspan x="0" y="0">Post-producción y Medios Digitales</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(809.97 483.81)"><tspan x="0" y="0">Diseño de Servicios y Experiencia</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(809.61 511.02)"><tspan x="0" y="0">Vinculación Territorial y Social</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(809.89 541.75)"><tspan x="0" y="0">Teoría y Crítica Cultural</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(807.7 586.03)"><tspan x="0" y="0">Gestión y Proyectos de Mención</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(429.24 168.48)"><tspan x="0" y="0">Morfología</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(29.25 185.89)"><tspan x="0" y="0">Ambas</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(421.89 270.97)"><tspan x="0" y="0">Ciencia y Tecnología</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(30.77 310.27)"><tspan x="0" y="0">V y M</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(35 444.72)"><tspan x="0" y="0">I y S</tspan></text>
+          </g>
+          <g class="st33">
+            <text class="st35" transform="translate(431.7 455.49)"><tspan x="0" y="0">Comunicación y Gestión del Diseño</tspan></text>
+          </g>
+        </g>
+        <g>
+          <text class="st34" transform="translate(787.18 17.32)"><tspan x="0" y="0">Categoría</tspan></text>
+          <text class="st34" transform="translate(15.67 106.79)"><tspan x="0" y="0">Proyecto</tspan></text>
+          <text class="st34" transform="translate(415.69 90.6)"><tspan x="0" y="0">Nota</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+            <small>Diseño y visualización de información</small>
+        </div>
+
+        <script>
+            const t = document.querySelector("#este");
+            const URL = "https://api.myjson.online/v1/records/1c25fa01-1a21-4174-b41e-87a120845ac8";
+
+            fetch(URL)
+                .then((respuesta) => {
+                    if (!respuesta.ok) {
+                        throw new Error("Error HTTP: " + respuesta.status);
+                    }
+                    return respuesta.json();
+                })
+                .then((datos) => {
+                    var trabajo = datos.data;
+                    console.log(trabajo);
+                    trabajo.forEach((x) => {
+                        t.innerHTML += `<tr style="${x.ok == 1 ? "background-color: var(--color-iluminadisimo); color: var(--color-oscurisimo)" : ""}"><td>${x.name}</td><td>${x.title}</td><td>${x.grade}</td><td>${x.category}</td><td>${x.tutor}</td></tr>`;
+                    });
+                })
+                .catch((error) => {
+                    console.error("Algo salió mal:", error);
+                });
+
+            function sinAcentos(str) {
+                return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            }
+
+            document.getElementById("elInput").addEventListener("keyup", function () {
+                const valor = sinAcentos(this.value.toLowerCase());
+                document.querySelectorAll("#este tr").forEach(function (fila) {
+                    fila.style.display = sinAcentos(fila.textContent.toLowerCase()).includes(valor) ? "" : "none";
+                });
+            });
+        </script>
+    </body>
+</html>
